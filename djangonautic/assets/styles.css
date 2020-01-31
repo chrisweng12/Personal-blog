@@ -1,0 +1,17 @@
+*{
+	/*border: solid 1px black;*/
+	position: relative;
+	font-family: Comic Sans MS;
+}
+html,body{
+	width:100%;
+	height:100%;
+  	padding:0px;
+  	margin:0px;
+  	background-image: url("https://www.itl.cat/pngfile/big/0-7755_nature-pier-bridge-d-river-water-sunset-night.jpg");
+  	background-size: cover;
+  	background-position: auto;
+  	background-color: rgba(500, 500, 500, 0.8);
+  	background-blend-mode: color;
+
+}
