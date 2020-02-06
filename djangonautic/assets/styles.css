@@ -15,15 +15,23 @@ html,body{
   	background-blend-mode: color;
 
 }
+a .image{
+    top: -80px;
+    width: 350px;
+    height: 350px;
+}
 .wrapper h1{
     left: 100px;
+    top: -200px;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 50px;
 	color: #012172;
 }
+
 .wrapper .article{
-	top: 20px;
+	top: -200px;
 	left: 50px;
+	padding: 10px;
 	font-size: 14px;
 }
