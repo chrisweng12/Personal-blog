@@ -3,10 +3,12 @@
 
 {% block content %}
 <div class='article-detail'>
-    <div class='article'>
+    <div class='article'>    
+        <img src="{{ article.thumb.url }}" width="600" height="300"/>
         <h2>{{article.title}}</h2>
         <p>{{article.body}}</p>
         <p>{{article.date}}</p>
+        
     </div>
 </div>
 {% endblock %}
