@@ -11,6 +11,16 @@
     	<a href= "{% url 'articles:list' %}">
         	<img class= "image" src= "{% static 'LOGO.png' %}"/>
         </a>
+        <nav>
+            <ul>
+                <li>
+                    <form class="logot-link" action="{% url 'accounts:logout' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
         <div class= "wrapper">            
             {% block content %}
             {% endblock %}
