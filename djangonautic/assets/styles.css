@@ -147,3 +147,64 @@ h1{
     margin: 0;
     
 }
+.site-form{
+    top: -300px;
+    border: 1px solid #0072E3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+.create-article h2{
+    top:-300px;
+    color: #0486DB;
+}
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color: #3C3C3C;
+    font-size: 0.9em;
+    display: block;
+}
+
+.errorlist li{
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.errorlist{
+    padding: 0;
+}
+
+.site-form input[type="submit"]{
+    padding: 10px;
+	display: inline-block;
+	cursor: pointer;
+	border: solid 1px black;
+	border-radius: 10px;
+	background-color: #FBFFFD;
+	color: #0486DB;
+	transition: 0.5s ease-out;
+	text-decoration: none;
+	font-size: 20px;
+}
+.site-form input[type="submit"]:hover{
+	background-color: #05ACD3;
+	color: #012172;
+	background-position: left bottom;
+}
+
+
+
+
+
+
+
+
+
