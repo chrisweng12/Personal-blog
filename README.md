@@ -19,7 +19,7 @@
    * Create a password to login
      * Django has the default function to check if the user name is used or the password is safe enough
    * When everything is set up, you can start a new chapter of writing your own personal blog
-
+      ![](./djangonautic/pages/sigup.png)
    <img src="C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\sigup.png" style="zoom:50%;" />
 
    
