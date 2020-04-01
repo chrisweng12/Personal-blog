@@ -20,16 +20,12 @@
      * Django has the default function to check if the user name is used or the password is safe enough
    * When everything is set up, you can start a new chapter of writing your own personal blog
       ![](./djangonautic/pages/sigup.png)
-   <img src="C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\sigup.png" style="zoom:50%;" />
-
    
 
    ### Login and Logout with the account you created
 
    * After creating an account, you are free to login or logout anytime you want 
-
-     <img src="C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\login.png" style="zoom:50%;" />
-
+      ![](./djangonautic/pages/login.png)
      
 
      
@@ -43,17 +39,15 @@
    * The Logo at the top left corner can also direct you back to this page
 
    * If you want to view the whole article, just click the underlined title
-
-     ![](C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\homepage.png)
-
+      ![](./djangonautic/pages/homepage.png)
+   
    
 
    ### View articles
 
    * By clicking the underlined title, you can view the specific article
-
-     ![](C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\aritcle.png) 
-
+      ![](./djangonautic/pages/article.png)
+ 
    
 
    	### Write articles	
@@ -65,8 +59,7 @@
      3. Body
      4. Image
      5. Author (generated automatically when you login)
-
-   <img src="C:\Users\chris\django-playlist\Personal-blog\djangonautic\pages\create.png" style="zoom:50%;" />
+   ![](./djangonautic/pages/create.png)
 
 
 
