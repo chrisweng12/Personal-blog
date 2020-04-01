@@ -19,10 +19,10 @@
                         {% csrf_token %}
                         <button class="buttonOne" type="submit">Logout</button>
                     </form>
-                    <li><a href="{% url 'articles:create' %}" class="highlight">New Article</a></li>
+                    <a href="{% url 'articles:create' %}" class="highlight">New Article</a>
                 {% else %}
-                    <li><a href="{% url 'accounts:login' %}">Login</a></li>    
-                    <li><a href="{% url 'accounts:signup' %}">Signup</a></li>  
+                    <a href="{% url 'accounts:login' %}" class="logged">Login</a>    
+                    <a href="{% url 'accounts:signup' %}" class="sign">Signup</a>
                 {% endif %}  
             </ul>
         </nav>

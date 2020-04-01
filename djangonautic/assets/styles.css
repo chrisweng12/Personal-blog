@@ -9,42 +9,50 @@ html,body{
 	height:100%;
   	padding:0px;
   	margin:0px;
-  	background-image: url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg");
-  	background-size: cover;
-  	background-position: auto;
-  	background-color: rgba(500, 500, 500, 0.5);
-  	background-blend-mode: color;
+  	background-color: #ADFEDC;
 }
 a .image{
     top: -100px;
     width: 350px;
     height: 350px;
 }
-.wrapper h1{
-    left: 50px;
+h1{
+    left: 350;
     top: -330px;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 50px;
-	color: #012172;
+	color: #0080FF;
 }
-
-.wrapper .article{
-	top: -350px;
-	left: 50px;
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.article{
+    top: -250;
 	padding: 10px;
-	font-size: 14px;
+	font-size: 12px;
+	border: 1px solid #0072E3;
+	border-radius: 10px;
+	position: relative;
+	padding-bottom: 40px;
 }
 
 .logout-link .buttonOne {
     top: -350px;
     left: 1100px;
     padding: 10px;
+    padding: 10px;
 	display: inline-block;
 	cursor: pointer;
-	/*border: solid 1px black;*/
+	border: solid 1px black;
 	border-radius: 10px;
-	background-color: ;
+	background-color: #FBFFFD;
 	color: #0486DB;
 	transition: 0.5s ease-out;
 	text-decoration: none;
@@ -55,4 +63,87 @@ a .image{
 	color: #012172;
 	background-position: left bottom;
 
+}
+.highlight{
+    top: -415px;
+    left: 900px;
+    padding: 10px;
+	display: inline-block;
+	cursor: pointer;
+	border: solid 1px black;
+	border-radius: 10px;
+	background-color: #FBFFFD;
+	color: #0486DB;
+	transition: 0.5s ease-out;
+	text-decoration: none;
+	font-size: 20px;
+}
+.highlight:hover{
+	background-color: #05ACD3;
+	color: #012172;
+	background-position: left bottom;
+}
+.logged{
+    top: -350px;
+    left: 1000px;
+    padding: 10px;
+	display: inline-block;
+	cursor: pointer;
+	border: solid 1px black;
+	border-radius: 10px;
+	background-color: #FBFFFD;
+	color: #0486DB;
+	transition: 0.5s ease-out;
+	text-decoration: none;
+	font-size: 20px;
+}
+.logged:hover{
+	background-color: #05ACD3;
+	color: #012172;
+	background-position: left bottom;
+}
+.sign{
+    top: -350px;
+    left: 1050px;
+    padding: 10px;
+    padding: 10px;
+	display: inline-block;
+	cursor: pointer;
+	border: solid 1px black;
+	border-radius: 10px;
+	background-color: #FBFFFD;
+	color: #0486DB;
+	transition: 0.5s ease-out;
+	text-decoration: none;
+	font-size: 20px;
+}
+.sign:hover{
+	background-color: #05ACD3;
+	color: #012172;
+	background-position: left bottom;
+}
+.article-detail .article{
+    padding: 0;
+}
+.article-detail .article img{
+    max-width: 100%;
+}
+.article-detail .article h2{
+    text-align: center;
+    margin: 20px auto;
+
+}
+.article-detail .article p{
+    text-align: center;
+}
+.article .author{
+    padding: 10px;
+    background: #05ACD3;
+    color: #FBFFFD;
+    position: absolute;
+    border-radius: 10px;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    
 }
